@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshu Rohit - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <a href="#home" class="logo">HIMANSHU ROHIT</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="home-box">
+      <div class="section-text">
+        <h1>Hi, I'm Himanshu Rohit</h1>
+        <p>Mechanical Design Engineer & 3D Artist skilled in CAD and Blender. Passionate about designing innovative solutions and bringing ideas to life.</p>
+        <div class="cta-buttons">
+          <a href="#software" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-content reverse">
+      <div class="section-text">
+        <h2>About Me</h2>
+        <p>
+          I am a design engineer with a passion for 3D printing and a postgraduate student at Conestoga College, where I am studying Applied Manufacturing Management Design Integration 3D Printing. I have a bachelor's degree in Automobile/Automotive Mechanics Technology/Technician from A. D. Patel Institute of Technology, where I learned the fundamentals of manufacturing processes and participated in an electric two-wheeler design competition.
+          <br><br>
+          At Ausion Tech, I created innovative and efficient solutions for various industrial projects, using my proficiency in SOLIDWORKS, PTC Creo, and Ultimaker Cura. I designed, modeled, and printed 3D components and assemblies, following the best practices and specifications. I also earned multiple certifications, including the Certified SOLIDWORKS Associate and Professional, and achieved a high score in the International English Language Test. I am eager to explore new possibilities and challenges in the field of 3D printing and enhance my skills and knowledge.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="software">
+  <div class="section-content">
+    <div class="section-text">
+      <h2>Software Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Audi R8 -->
+        <div class="project-card" data-project="AudiR8">
+          <img src="assets/AudiR8/Render.png" alt="Audi R8 Model" class="project-img" />
+          <h3>Audi R8 Model</h3>
+          <p>Designed using Blender</p>
+        </div>
+
+        <!-- Nissan GTR -->
+        <div class="project-card" data-project="NissanGTR">
+          <img src="assets/NissanGTR/1.jpg" alt="Nissan GTR Model" class="project-img" />
+          <h3>Nissan GTR Model</h3>
+          <p>Designed using Blender</p>
+        </div>
+
+        <!-- Course Projects -->
+        <div class="project-card" data-project="Course">
+          <img src="assets/Course/beach 2.png" alt="Course Project" class="project-img" />
+          <h3>Course Projects</h3>
+          <p>Photorealistic rendering using Blender Cycles.</p>
+        </div>
+
+        <!-- SAEINDIA Project -->
+        <div class="project-card" data-project="Project">
+          <img src="assets/Project/3D view.jpg" alt="SAEINDIA Project" class="project-img" />
+          <h3>SAEINDIA Project</h3>
+          <p>Electric two wheeler design competition</p>
+        </div>
+
+        <!-- Futuristic House -->
+        <div class="project-card" data-project="House">
+          <img src="assets/House/cam2eevee.jpg" alt="Futuristic House" class="project-img" />
+          <h3>Futuristic House</h3>
+          <p>Designed using Blender</p>
+        </div>
+
+        <!-- PTC Creo Engineering Drawings -->
+        <div class="project-card" data-project="PTC-Creo-ED">
+          <img src="assets/PTC-Creo-ED/0125.jpg" alt="PTC Creo Engineering Drawings" class="project-img" />
+          <h3>PTC Creo</h3>
+          <p>Engineering Drawings</p>
+        </div>
+
+        <!-- PTC Creo Parts -->
+        <div class="project-card" data-project="PTC-Creo-Parts">
+          <img src="assets/PTC-Creo-Parts/0001.jpg" alt="PTC Creo Engineering Parts" class="project-img" />
+          <h3>PTC Creo</h3>
+          <p>Engineering Parts</p>
+        </div>
+
+        <!-- Solidworks Engineering Drawings -->
+        <div class="project-card" data-project="Solidworks-ED">
+          <img src="assets/Solidworks-ED/8964054_A2.png" alt="Solidworks Engineering Drawings" class="project-img" />
+          <h3>Solidworks</h3>
+          <p>Engineering Drawings</p>
+        </div>
+
+        <!-- Solidworks Projects -->
+        <div class="project-card" data-project="Solidworks">
+          <img src="assets/Solidworks/1.png" alt="Solidworks Projects" class="project-img" />
+          <h3>Solidworks</h3>
+          <p>Projects</p>
+        </div>
+
+        <!-- Superman Blender -->
+        <div class="project-card" data-project="Superman">
+          <img src="assets/Superman/1.png" alt="Superman Blender Project" class="project-img" />
+          <h3>Superman</h3>
+          <p>Blender Simulation and Designing</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Modal -->
+<div id="gallery-modal" class="gallery-modal" style="display:none;">
+  <div class="gallery-content">
+    <span class="gallery-close" id="gallery-close">&times;</span>
+    <div id="gallery-items"></div>
+    <div class="gallery-nav">
+      <button id="gallery-prev">&#8592;</button>
+      <button id="gallery-next">&#8594;</button>
+    </div>
+  </div>
+</div>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <div class="section-content reverse">
+      <div class="section-text">
+        <h2>Certificates</h2>
+        <div class="projects-grid scrollable">
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets/Cerificates/Creo Completion Certificate_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>CreO 9.0 Certificate</h3>
+                <p>Certified in CAD Design by Krishna Infotech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\Creo Infotech Certificate_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>CreO 9.0 Certificate</h3>
+                <p>Certified in CAD Design by Krishna Infotech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\Creo Internship Certificate_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Krishna Infotech Internship Certificate</h3>
+                <p>14 weeks of internship at Krishna CAD center</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\CSWA Additive Manufacturing_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Dassault Systemes</h3>
+                <p>Certified as Solidworks Manufacturing Associate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\CSWA Mechanical Design_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Dassault Systemes</h3>
+                <p>Certified in mechanical design.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\CSWP Mechanical Design_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Dassault Systemes</h3>
+                <p>Certified in mechanical design.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets/Cerificates/Creo Completion Certificate_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>ELEATION Internship Certificate</h3>
+                <p>CAD internship at ELEATION in part modelling, assemblies, mechanism and drawing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\ETWDC Fusion 360_page-0001.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Fusion 360 Workshop</h3>
+                <p>Course completion certificate by AutoDesk.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\ETWDC Participation.jpeg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>SAEISS</h3>
+                <p>Electric two wheeler design competition</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\Hero Colabs 3.0.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Hero MotoCorp</h3>
+                <p>Hero CoLabs Design Challenge 3.0</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\Hero Colabs 4.0.jpg" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Hero MotoCorp</h3>
+                <p>Hero CoLabs Design Challenge 4.0</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="cad">
+            <div class="card-content">
+              <img src="assets\Cerificates\Kaarwan Blender.png" alt="CAD Certificate" class="card-img-left certificate-thumbnail" />
+              <div class="card-text-right">
+                <h3>Kaarwaan</h3>
+                <p>4 weeks of advanced Blender Course.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-content">
+      <div class="section-text">
+        <h2>Contact Me</h2>
+        <p>Let's collaborate on mechanical design projects or 3D visualizations. Reach out via email or connect on social platforms.</p>
+        
+        <form class="contact-form" action="https://example.com/contact" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-links">
+          <a href="https://ca.linkedin.com/in/himanshu2030" class="contact-btn" data-tooltip="LinkedIn">
+            <i data-feather="linkedin"></i>
+          </a>          
+          <a href="mailto:rohithimanshu1708@gmail.com" class="contact-btn" data-tooltip="Email">
+            <i data-feather="mail"></i>
+          </a>
+          <a href="tel:+14378781708" data-tooltip="Mobile">
+             <span>437 878 1708</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div id="certificate-modal" class="certificate-modal">
+    <div class="certificate-modal-content">
+      <div class="certificate-modal-header">
+        <h3 id="certificate-modal-title">Certificate</h3>
+        <span id="certificate-close" class="certificate-close">&times;</span>
+      </div>
+      <div class="certificate-modal-body">
+        <img id="certificate-modal-img" class="certificate-full-image" alt="Certificate" />
+      </div>
+      <div class="certificate-modal-footer">
+        <button id="download-certificate" class="btn btn-primary">Download Certificate</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

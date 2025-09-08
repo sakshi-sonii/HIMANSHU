@@ -1,0 +1,9 @@
+# In your vercel.json
+{
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ],
+  "git": {
+    "lfs": true
+  }
+}

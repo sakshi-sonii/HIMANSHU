@@ -1,9 +1,17 @@
 
 {
+  
   "builds": [
-    { "src": "package.json", "use": "@vercel/node" }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "assets/**", "use": "@vercel/static" },
+    { "src": "styles.css", "use": "@vercel/static" },
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "gallery.json", "use": "@vercel/static" }
   ],
   "git": {
     "lfs": true
   }
 }
+
+  
+

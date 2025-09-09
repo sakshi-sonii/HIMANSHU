@@ -1,17 +1,32 @@
 {
-  "AudiR8": [
-    {"type": "image", "src": "assets/AudiR8/135.png"},
-    {"type": "image", "src": "assets/AudiR8/Insta 1.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Insta 2.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Render #1.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Render r8.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Render.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Screenshot 2022-03-01 211211.jpg"},
-    {"type": "image", "src": "assets/AudiR8/Screenshot 2022-03-02 164233.jpg"},
-    {"type": "image", "src": "assets/AudiR8/sls amg 1.jpg"},
-    {"type": "image", "src": "assets/AudiR8/sls amg 2.jpg"},
-    {"type": "image", "src": "assets/AudiR8/sls amg 3.jpg"},
-    {"type": "image", "src": "assets/AudiR8/sls amg 4.jpg"}
+  "Cars": [
+    {"type": "image", "src": "assets/Cars/1.jpg"},
+    {"type": "image", "src": "assets/Cars/2.jpg"},
+    {"type": "image", "src": "assets/Cars/3.jpg"},
+    {"type": "image", "src": "assets/Cars/4.jpg"},
+    {"type": "image", "src": "assets/Cars/5.jpg"},
+    {"type": "image", "src": "assets/Cars/6.jpg"},
+    {"type": "image", "src": "assets/Cars/7.jpg"},
+    {"type": "image", "src": "assets/Cars/8.jpg"},
+    {"type": "image", "src": "assets/Cars/9.jpg"},
+    {"type": "image", "src": "assets/Cars/10.jpg"},
+    {"type": "image", "src": "assets/Cars/Insta 1.jpg"},
+    {"type": "image", "src": "assets/Cars/Insta 2.jpg"},
+    {"type": "image", "src": "assets/Cars/Render #1.jpg"},
+    {"type": "image", "src": "assets/Cars/Render.jpg"},
+    {"type": "image", "src": "assets/Cars/Screenshot 2022-03-01 211211.jpg"},
+    {"type": "image", "src": "assets/Cars/Screenshot 2022-03-02 164233.jpg"},
+    {"type": "image", "src": "assets/Cars/sls amg 1.jpg"},
+    {"type": "image", "src": "assets/Cars/sls amg 2.jpg"},
+    {"type": "image", "src": "assets/Cars/sls amg 3.jpg"},
+    {"type": "image", "src": "assets/Cars/sls amg 4.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel1.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel2.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel40.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel80 new.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel160 new.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel160.jpg"},
+    {"type": "image", "src": "assets/Cars/tunnel240 new.jpg"}
   ],
   "Cerificates": [
     {"type": "image", "src": "assets/Cerificates/Creo Completion Certificate_page-0001.jpg"},
@@ -71,25 +86,7 @@
     {"type": "image", "src": "assets/House/cam4eevee.jpg"},
     {"type": "image", "src": "assets/House/cam4m.jpg"}
   ],
-  "NissanGTR": [
-    {"type": "image", "src": "assets/NissanGTR/1.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/2.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/3.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/4.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/5.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/6.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/7.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/8.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/9.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/10.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel1.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel2.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel40.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel80 new.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel160 new.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel160.jpg"},
-    {"type": "image", "src": "assets/NissanGTR/tunnel240 new.jpg"}
-  ],
+
   "PTC-Creo-ED": [
     {"type": "image", "src": "assets/PTC-Creo-ED/0125.jpg"},
     {"type": "image", "src": "assets/PTC-Creo-ED/0126.jpg"},
@@ -278,12 +275,6 @@
   ],
   "Superman": [
     {"type": "image", "src": "assets/Superman/1.png"},
-    {"type": "image", "src": "assets/Superman/10.png"},
-    {"type": "image", "src": "assets/Superman/11.png"},
-    {"type": "image", "src": "assets/Superman/12.png"},
-    {"type": "image", "src": "assets/Superman/13.png"},
-    {"type": "image", "src": "assets/Superman/14.png"},
-    {"type": "image", "src": "assets/Superman/15.png"},
     {"type": "image", "src": "assets/Superman/2.png"},
     {"type": "image", "src": "assets/Superman/3.png"},
     {"type": "image", "src": "assets/Superman/4.png"},
@@ -292,6 +283,19 @@
     {"type": "image", "src": "assets/Superman/7.png"},
     {"type": "image", "src": "assets/Superman/8.png"},
     {"type": "image", "src": "assets/Superman/9.png"},
-    {"type": "video", "src": "assets/Superman/Superman Teaser.mp4"}
+    {"type": "image", "src": "assets/Superman/10.png"},
+    {"type": "image", "src": "assets/Superman/11.png"},
+    {"type": "image", "src": "assets/Superman/12.png"},
+    {"type": "image", "src": "assets/Superman/13.png"},
+    {"type": "image", "src": "assets/Superman/14.png"},
+    {"type": "image", "src": "assets/Superman/15.png"}
+  ],
+  "Project": [
+    {"type": "image", "src": "assets/Project/3D view.jpg"},
+    {"type": "image", "src": "assets/Project/adit2.jpg"},
+    {"type": "image", "src": "assets/Project/Fiber Body.jpg"},
+    {"type": "image", "src": "assets/Project/Himanshu 1.png"},
+    {"type": "image", "src": "assets/Project/Himanshu 3.png"},
+    {"type": "image", "src": "assets/Project/untitled.jpg"}
   ]
 }

@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initContactFormSubmission();
   initModals();
   initFilters("#certificates .filter-buttons .btn", "#certificates .projects-grid .project-card");
-  initFilters("#software .filter-buttons .btn", "#software .projects-grid .project-card");
+  // No software/project filters needed for new layout
   initGalleryModal();        // gallery.json driven modal for cards with data-project/data-gallery
   initCertificateModal();    // certificate thumbnail modal + download
   addGlobalImageErrorHandlers();

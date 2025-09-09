@@ -87,7 +87,7 @@
     {"type": "image", "src": "assets/House/cam4m.jpg"}
   ],
 
-  "PTC-Creo-ED": [
+  "PTC-Creo-Drawings": [
     {"type": "image", "src": "assets/PTC-Creo-ED/0125.jpg"},
     {"type": "image", "src": "assets/PTC-Creo-ED/0126.jpg"},
     {"type": "image", "src": "assets/PTC-Creo-ED/0127.jpg"},
@@ -297,5 +297,19 @@
     {"type": "image", "src": "assets/Project/Himanshu 1.png"},
     {"type": "image", "src": "assets/Project/Himanshu 3.png"},
     {"type": "image", "src": "assets/Project/untitled.jpg"}
+  ],
+  "Solidworks-ED": [
+    {"type": "image", "src": "assets/Solidworks-ED/A5_Assignment_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/FE-24_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/FE-MOLD_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/HR8964054-AS2-3_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/HR8964054-AS2-3_page-0002.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/HR8964054-AS2-3_page-0003.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/HR8964054-AS2-3_page-0004.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/HR8964054-AS2-3_page-0005.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/Mold_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/MT-30_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/New Drawing_page-0001.jpg"},
+    {"type": "image", "src": "assets/Solidworks-ED/W5-40_page-0001.jpg"}
   ]
 }
